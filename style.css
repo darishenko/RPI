@@ -2,6 +2,207 @@ body {
   margin: 0px;
 }
 
+.TopBackground {
+  margin: 0px;
+  height: 885px;
+  width: 1600px;
+  background-image: url(pictures/topbg.jpg);
+}
+
+.TopGrid {
+  display: grid;
+  grid-template-columns: 900px 700px;
+  grid-template-rows: 200px, 685px;
+}
+
+.Menu {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-around;
+  width: 500px;
+  margin-top: 60px;
+  margin-right: 15px;
+}
+
+.MenuText {
+  font-family: verdana;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  height: fit-content;
+}
+
+.MenuText:hover {
+  cursor: pointer;
+  text-decoration: underline rgb(254, 80, 79) 3px;
+  text-underline-offset: 10px;
+}
+
+.Logo {
+  color: rgb(254, 80, 79);
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 32px;
+  margin-top: 65px;
+  margin-left: 200px;
+  width: fit-content;
+}
+
+.Logo:hover {
+  cursor: pointer;
+}
+
+.TextHeader1 {
+  color: rgb(255, 255, 255);
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 60px;
+  margin-top: 125px;
+  margin-left: 200px;
+  margin-bottom: 0px;
+}
+
+.TextHeader2 {
+  color: rgb(255, 255, 255);
+  font-family: verdana;
+  font-size: 20px;
+  margin-left: 200px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.YourProfitBG {
+  background-image: url(pictures/YourProfitBG.png);
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 97px;
+  color: rgb(255, 255, 255);
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 140px;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.HeaderButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  width: 455px;
+}
+
+.HeaderBtn {
+  margin-top: 10px;
+  width: 215px;
+  height: 65px;
+  background-color: rgb(52, 52, 52);
+  color: white;
+  font-size: 20px;
+  font-family: Verdana;
+  border-radius: 50px;
+  border: 0px;
+}
+
+.HeaderBtn:hover {
+  cursor: pointer;
+  background-color: rgb(254, 80, 79);
+}
+
+.Headline {
+  font-family: verdana;
+  color: rgb(52, 52, 52);
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  width: 1600px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.Subhead {
+  font-family: verdana;
+  font-size: 16px;
+  color: rgb(173, 173, 173);
+  text-align: center;
+  width: 1600px;
+}
+
+.ServicesGrid {
+  margin-top: 40px;
+  margin-left: 200px;
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(2, 250px);
+  align-items: center;
+}
+
+.ServiceImg {
+  width: 55px;
+  height: 55px;
+  margin: auto;
+}
+
+#service1 {
+  background-image: url(pictures/PerfomanceImprovment.png);
+}
+
+#service2 {
+  background-image: url(pictures/CustomerStrategy.png);
+}
+
+#service3 {
+  background-image: url(pictures/InformationTechnology.png);
+}
+
+#service4 {
+  background-image: url(pictures/FullPotentialTransformation.png);
+}
+
+#service5 {
+  background-image: url(pictures/Strategy.png);
+}
+
+#service6 {
+  background-image: url(pictures/PrivateEquity.png);
+}
+
+#service7 {
+  background-image: url(pictures/Digital.png);
+}
+
+#service8 {
+  background-image: url(pictures/ResultsDelivery.png);
+}
+
+.ServiceTitle {
+  text-align: center;
+  font-size: 16px;
+  font-family: verdana;
+  font-weight: bold;
+  color: rgb(52, 52, 52);
+  margin: 15px;
+  margin-bottom: 0px;
+}
+
+.ServiceSubtitle {
+  text-align: center;
+  font-size: 14px;
+  font-family: verdana;
+  color: rgb(172, 172, 172);
+  margin-bottom: 0px;
+}
+
+.ServiceTitle + hr {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(254, 80, 79);
+  border: none;
+  width: 60px;
+  height: 3px;
+}
+
 .ContactUs {
   background-image: url(pictures/ContactUsBg.jpg);
   height: 400px;
@@ -21,16 +222,17 @@ body {
 }
 
 .ContactUsInfo {
+  margin: 0px;
   padding-top: 100px;
   font-size: 34px;
   font-weight: bold;
   font-family: Verdana;
   color: white;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .ContactUsBtn {
-  margin-top: 10px;
+  margin-top: 30px;
   width: 215px;
   height: 65px;
   background-color: rgb(52, 52, 52);
@@ -65,7 +267,7 @@ body {
   font-weight: bold;
   text-align: center;
 }
-.AboutUsInfo > h4 {
+.AboutUsInfo > p {
   margin-top: 25px;
   font-size: 16px;
   font-family: Verdana;
@@ -93,7 +295,7 @@ body {
   height: 3px;
 }
 
-.WhatWeDo > h4 {
+.WhatWeDo > p {
   margin-right: 25px;
   font-size: 14px;
   font-family: Verdana;
@@ -219,7 +421,7 @@ body {
   display: none;
 }
 
-.person:hover .personInfo {
+.OurTeamGrid > div:hover .personInfo {
   cursor: pointer;
   display: block;
 }
@@ -263,7 +465,7 @@ body {
   margin-top: 30px;
 }
 
-.Text {
+.StrategicInfo + p {
   font-size: 16px;
   font-family: Verdana;
   color: white;

@@ -715,6 +715,7 @@ body {
   height: 175px;
   resize: none;
   padding-top: 15px;
+  border: 1px solid #adadad;
 }
 
 .SendBtn {

@@ -264,8 +264,7 @@ body {
 .AboutUsInfo > h2 {
   margin: 0px;
   font-size: 24px;
-  font-family: Verdana;
-  font-weight: bold;
+  font-family: Verdana-Bold;
   text-align: center;
 }
 .AboutUsInfo > p {
@@ -282,8 +281,7 @@ body {
 .OurTeam > h2 {
   margin: 0px;
   font-size: 20px;
-  font-family: Verdana;
-  font-weight: bold;
+  font-family: Verdana-Bold;
   color: rgb(254, 80, 79);
 }
 

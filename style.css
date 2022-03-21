@@ -53,8 +53,7 @@ body {
 
 .TextHeader1 {
   color: rgb(255, 255, 255);
-  font-family: verdana;
-  font-weight: bold;
+  font-family: Verdana-Bold;
   font-size: 60px;
   margin-top: 125px;
   margin-left: 200px;
@@ -76,8 +75,7 @@ body {
   height: 35px;
   width: 97px;
   color: rgb(255, 255, 255);
-  font-family: verdana;
-  font-weight: bold;
+  font-family: Verdana-Bold;
   font-size: 12px;
   margin-top: 140px;
   margin-left: auto;
@@ -110,9 +108,8 @@ body {
 }
 
 .Headline {
-  font-family: verdana;
+  font-family: Verdana-Bold;
   color: rgb(52, 52, 52);
-  font-weight: bold;
   font-size: 24px;
   text-align: center;
   width: 1600px;
@@ -179,8 +176,7 @@ body {
 .ServiceTitle {
   text-align: center;
   font-size: 16px;
-  font-family: verdana;
-  font-weight: bold;
+  font-family: Verdana-Bold;
   color: rgb(52, 52, 52);
   margin: 15px;
   margin-bottom: 0px;

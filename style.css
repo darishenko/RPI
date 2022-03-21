@@ -250,9 +250,9 @@ body {
 }
 
 .AboutUs {
-  margin: 80px 200px 40px 200px;
+  margin: 75px 200px 35px 200px;
   display: grid;
-  grid-template-rows: 160px 460px;
+  grid-template-rows: 170px 460px;
   grid-template-columns: repeat(2, 600px);
   grid-gap: 0px;
 }
@@ -268,8 +268,9 @@ body {
   text-align: center;
 }
 .AboutUsInfo > p {
-  margin-top: 25px;
+  margin-top: 20px;
   font-size: 16px;
+  line-height: 25px;
   font-family: Verdana;
   font-weight: normal;
   text-align: center;
@@ -295,11 +296,12 @@ body {
 }
 
 .WhatWeDo > p {
+  margin-top: -5px;
   margin-right: 25px;
   font-size: 14px;
   font-family: Verdana;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 24px;
   color: rgb(52, 52, 52);
 }
 .OurClients {
@@ -432,8 +434,7 @@ body {
   margin: 0px;
   color: white;
   font-size: 32px;
-  font-family: Verdana;
-  font-weight: bold;
+  font-family: Verdana-Bold;
 }
 
 .personName + hr {
@@ -447,8 +448,7 @@ body {
   margin: 10px 20px 0px;
   color: white;
   font-size: 12px;
-  font-family: Verdana;
-  font-weight: bold;
+  font-family: Verdana-Bold;
 }
 .role {
   margin: 5px 20px;
@@ -713,7 +713,6 @@ body {
   height: 175px;
   resize: none;
   padding-top: 15px;
-  border: 1px solid #adadad;
 }
 
 .SendBtn {

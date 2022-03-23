@@ -864,6 +864,9 @@ body {
 .link-facebook {
   margin-top: 1px;
 }
+.links > li:hover{
+  cursor: pointer;
+}
 
 .line {
   background-color: #fd4f4f;

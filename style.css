@@ -11,8 +11,9 @@ body {
 
 .TopGrid {
   display: grid;
-  grid-template-columns: 900px 700px;
+  grid-template-columns: 700px 700px;
   grid-template-rows: 200px, 685px;
+  margin-left: 200px;
 }
 
 .Menu {
@@ -40,6 +41,7 @@ body {
 
 ._Logo{
 width: 160px;
+margin-left: 0px
 }
 
 .Logo {
@@ -47,7 +49,9 @@ width: 160px;
   font-family: Verdana-Bold;
   font-size: 32px;
   margin-top: 65px;
-  margin-left: 200px;
+  /* margin-bottom: 0px; */
+  /* padding-left: 200px; */
+  /* margin-left: 200px; */
   /*width: fit-content;*/
 }
 
@@ -60,7 +64,7 @@ width: 160px;
   font-family: Verdana-Bold;
   font-size: 60px;
   margin-top: 125px;
-  margin-left: 200px;
+  /* margin-left: 200px; */
   margin-bottom: 0px;
 }
 
@@ -68,7 +72,7 @@ width: 160px;
   color: rgb(255, 255, 255);
   font-family: verdana;
   font-size: 20px;
-  margin-left: 200px;
+  /* margin-left: 200px; */
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -90,7 +94,7 @@ width: 160px;
 .HeaderButtons {
   display: flex;
   justify-content: space-between;
-  margin-left: 200px;
+  /* margin-left: 200px; */
   width: 455px;
 }
 

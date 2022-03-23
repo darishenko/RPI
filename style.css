@@ -37,6 +37,10 @@ body {
   text-underline-offset: 10px;
 }
 
+._Logo{
+width: 160px;
+}
+
 .Logo {
   color: rgb(254, 80, 79);
   font-family: Verdana-Bold;

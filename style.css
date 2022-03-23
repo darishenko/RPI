@@ -660,7 +660,7 @@ body {
   margin-left: 15px;
 }
 
-.contact_text_right_logo {
+.contact_text_logo:hover {
   cursor: pointer;
 }
 

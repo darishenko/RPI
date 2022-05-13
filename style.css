@@ -141,12 +141,23 @@ margin-left: 0px
   grid-template-columns: repeat(4, 300px);
   grid-template-rows: repeat(2, 250px);
   align-items: center;
+  align-content: center;
 }
 
 .ServiceImg {
   width: 55px;
   height: 55px;
   margin: auto;
+  /* margin-right: 0px; */
+  /* padding: auto; */
+  /* align-self: center;
+  align-content: center; */
+  
+}
+
+.ImageButton {
+  width: 55px;
+  height: 55px;
 }
 
 #service1 {

@@ -731,7 +731,7 @@ margin-left: 0px
   border: 1px solid #adadad;
 }
 
-#contact-BtnForSendTOEmail {
+.SendButton{
   width: 130px;
   height: 40px;
   font-size: 16px;
@@ -744,7 +744,7 @@ margin-left: 0px
   margin-top: 20px;
 }
 
-#contact-BtnForSendTOEmail:hover {
+.ActiveSendButton:hover{
   cursor: pointer;
   background-color: #ff4e4d;
 }

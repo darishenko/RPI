@@ -398,7 +398,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="contact_right">
                         <div class="hhk">
                             <div class="contact_text_right_logo">
@@ -410,17 +410,15 @@
                             </div>
 
                             <div class="contact_right_input_set">
-                                <form  id="formForSendMessage" class="formForSendMessage_body">
-                                    <label for="formForSendMessage_name"></label><input class="contact_right_input_set _req _name" type="text" name="name" id="formForSendMessage_name" placeholder="Name">
-                                    <label for="formForSendMessage_email"></label><input class="contact_right_input_set _req _email" type="text" name="email" id="formForSendMessage_email" placeholder="Email">
-                                    <label for="formForSendMessage_subject"></label><input class="contact_right_input_set _req" type="text" name="subject" id="formForSendMessage_subject" placeholder="Subject" >
-                                    <label for="formForSendMessage_message"></label><textarea class="contact_right_input_set _req" placeholder="Message" name="message" id="formForSendMessage_message"></textarea>
-                                    <button type= "submit" disabled class="SendButton HeaderBtn" id="contact-BtnForSendTOEmail"> Send </button>
-                                </form>
+                                <label for="name"></label><input class="contact_right_input_set" type="text" name="name" id="name" placeholder="Name"  >
+                                <label for="email"></label><input class="contact_right_input_set" type="text" name="email" id="email" placeholder="Email" >
+                                <label for="subject"></label><input class="contact_right_input_set" type="text" name="subject" id="subject" placeholder="Subject" >
+
+                                <label for="message"></label><textarea class="contact_right_input_set" placeholder="Message" name="message" id="message"></textarea>
                             </div>
                         </div>
-                        </div>
-
+                        <button class="SendBtn">Send</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -445,7 +443,8 @@
             </div>
         </div>
     </div>
+
+    <script src="grid.js"></script>
+
 </body>
-    <script src="InputValidation.js"></script>
-    <script src="scripts/grid.js"></script>
 </html>

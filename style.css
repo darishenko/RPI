@@ -717,14 +717,14 @@ margin-left: 0px
   padding-left: 15px;
 }
 
-#name,
-#email,
-#subject {
+#formForSendMessage_name,
+#formForSendMessage_email,
+#formForSendMessage_subject {
   border: 1px solid #adadad;
   margin-bottom: 15px;
 }
 
-#message {
+#formForSendMessage_message {
   height: 175px;
   resize: none;
   padding-top: 15px;

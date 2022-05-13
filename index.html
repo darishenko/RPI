@@ -17,6 +17,7 @@
 
 </head>
 <body>
+    <div id="Page"></div>
     <header>
         <div class="TopBackground">
             <div class="TopGrid">
@@ -120,7 +121,7 @@
         <div class="Dots">
             <div class="Blackout">
                 <h2 class="ContactUsInfo">CONTACT US FOR A FREE, NO OBLIGATION CONFIDENTIAL<br />EXPLORATION OF YOUR NEEDS</h2>
-                <button class="ContactUsBtn">Contact Us</button>
+                <button id="ContactUsBtn">Contact Us</button>
             </div>
         </div>
     </div> 
@@ -262,10 +263,15 @@
     <div class="Strategic">
         <div class="Dots">
             <div class="Blackout">
-                <button class="PlayBtn">▶</button>
-                <h2 class="StrategicInfo">WE BLEND THE STRATEGIC WITH CREATIVE</h2>
-                <p>When someone asks what we do at SKOKOV, it's tempting to point out our four-decade track record for helping to transform <br />
-                    the world's great companies into sharper, smarter, better versions of themselves.</p>
+                <div class="page">
+                    <button class="PlayBtn"><a href="#media-popup" id="idPlayVideo" data-media="https://www.youtube.com/embed/666y56PpwoQ"></a>▶</a></button>   
+                    <h2 class="StrategicInfo">WE BLEND THE STRATEGIC WITH CREATIVE</h2>
+                    <p>When someone asks what we do at SKOKOV, it's tempting to point out our four-decade track record for helping to transform <br />
+                    the world's great companies into sharper, smarter, better versions of themselves.</p>                 
+                    <div class="popup">
+                        <iframe id="iframe" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
         </div>
     </div> 
@@ -446,9 +452,8 @@
                 </ul>
             </div>
         </div>
-    </div>
-
-    
-
+    </div>  
 </body>
+<script src="modalWindow.js"></script>
+<script src="btnPlayVideo.js"></script>
 </html>

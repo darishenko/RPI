@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
         e.preventDefault();
         if (buttonToSendForm.disabled === false ){
             buttonToSendForm.disabled =true;
-            buttonToSendForm.classList.remove("SendButtonActive");
+            buttonToSendForm.classList.remove("ActiveSendButton");
             //send form
             form.reset();
             create();
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         if (!error){
-            buttonToSendForm.classList.add("SendButtonActive");
+            buttonToSendForm.classList.add("ActiveSendButton");
             buttonToSendForm.disabled = false;
         }
     }

@@ -247,7 +247,7 @@ margin-left: 0px
   line-height: 1.6;
 }
 
-.ContactUsBtn {
+#ContactUsBtn {
   margin-top: 30px;
   width: 215px;
   height: 65px;
@@ -920,4 +920,109 @@ margin-left: 0px
   left: 50%;
   margin-top: -50px;
   margin-left: -150px;
+}
+
+.page {
+    position: relative;
+    height:100%;
+}
+
+.popup {
+    position:absolute;
+    z-index:2;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.7);
+    opacity:0;
+    visibility:hidden;
+    transition:.3s ease;
+}
+
+.show-popup .popup {
+    opacity:1;
+    visibility: visible;    
+}
+
+.popup > iframe {
+    position:absolute;
+    top:50px;
+    left:50%;
+    margin-left:-280px;
+}
+
+#modal_background {
+  display:flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;  
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  width: 560px;
+  height: 250px;
+  top: 50%;
+  transform: translate( 0%, -50%);
+}
+
+.modal_header{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 90px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 0px 0px 1px 0px;
+}
+
+.header_text {
+  font-family: Verdana-Bold, serif;
+  font-size: 30px;
+  display: flex;
+  align-self: flex-end;
+  color: rgb(254, 80, 79);
+  padding: 0 20px 10px 0;
+  margin-left: 30px;
+}
+
+.btn_close {
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  border: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+.btn_close:hover {
+  cursor: pointer;
+  color: rgb(254, 80, 79);
+}
+
+.contact_text {
+  color: rgb(254, 80, 79);
+  font-family: Verdana-Bold, serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0px;
+  padding-top: 0px;
+}
+
+.modal_contact_icons {
+  display: inline-flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 15;
+  margin-top: 7px;
 }

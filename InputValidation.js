@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
         e.preventDefault();
         if (buttonToSendForm.disabled === false ){
             buttonToSendForm.disabled =true;
+            buttonToSendForm.classList.remove("SendButtonActive");
             //send form
             form.reset();
             create();
@@ -47,7 +48,10 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         }
 
-        buttonToSendForm.disabled = error !== 0;
+        if (!error){
+            buttonToSendForm.classList.add("SendButtonActive");
+            buttonToSendForm.disabled = false;
+        }
     }
 
     function emailCheck(input){

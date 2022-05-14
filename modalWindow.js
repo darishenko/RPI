@@ -77,17 +77,17 @@ function show_modal_window() {
   contact_inf.appendChild(contact_inf_li);
 
   let address = document.createElement("p");
-  address.className = "contact_text";
+  address.className = "modal_contact_text";
   address.textContent = "43 gagarina street, kharkov, ukraine";
   contact_inf_li.appendChild(address);
 
   let phone = document.createElement("p");
-  phone.className = "contact_text";
+  phone.className = "modal_contact_text";
   phone.textContent = "+38 (057) 777-05-05";
   contact_inf_li.appendChild(phone);
 
   let email = document.createElement("p");
-  email.className = "contact_text";
+  email.className = "modal_contact_text";
   email.textContent = "mynameisskokov@gmail.com";  
   contact_inf_li.appendChild(email);
 
